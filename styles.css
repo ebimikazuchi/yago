@@ -51,8 +51,8 @@ h2.grid-title {
     grid-template-areas: 
         'details details details character'
         'attributes attributes attributes attributes '
-        'combat combat combat combat' 
-        'pericias pericias pericias pericias';
+        'pericias pericias pericias pericias'
+        'habilidades habilidades habilidades habilidades';
 
         grid-gap: 30px;
 
@@ -106,6 +106,8 @@ h2.grid-title {
 .pericias { 
     grid-area: pericias;
 }
+
+
 
 
 
@@ -386,6 +388,7 @@ select:focus {
 
 
 
+
 .pericias .periciasList::-webkit-scrollbar{
     width: 5px;
 }
@@ -448,6 +451,10 @@ select:focus {
     margin: 10px;
     width: 150px;
 }
+
+
+
+
 
 
 
@@ -527,6 +534,7 @@ select:focus {
     align-self: center;
     
 }
+
 
 
 
@@ -658,3 +666,140 @@ input[type="checkbox"]:checked + label:after {
     transform: rotate(45deg);
 }
 
+
+
+.habilidades{
+    height: 200px;
+    width: 640px; 
+    margin-left: auto;
+    margin-right: auto;
+      
+}
+
+.grid-titleh{
+    width: auto;
+
+}
+
+.textHabilidades{
+    height: 75%;
+    width: 95%;
+    border: #0a0b0c;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    resize: none;
+    font-family: 'Itim', sans-serif;
+}
+
+.textHabilidades:focus {
+    outline: none;
+}
+
+
+.textHabilidades::-webkit-scrollbar{
+    width: 5px;
+}
+
+.textHabilidades::-webkit-scrollbar-track{
+    background-color: #0a0b0c;
+}
+
+.textHabilidades::-webkit-scrollbar-button{
+    background-color: #0a0b0c;
+}
+
+.textHabilidades::-webkit-scrollbar-thumb{
+    background-color: rgb(104, 104, 104);
+    border-radius: 70px;
+}
+
+
+.textHabilidades::-webkit-scrollbar-thumb:hover{
+    background-color: rgb(114, 114, 114);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.antecedentes{
+    height: 1100px;
+    width: 640px; 
+    margin-left: auto;
+    margin-right: auto;
+      
+}
+
+
+
+
+
+.textHabilidades1{
+    height: 6.5%;
+    width: 95%;
+    border: #0a0b0c;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    resize: none;
+    font-family: 'Itim', sans-serif;
+    
+}
+
+.textHabilidades1:focus {
+    outline: none;
+}
+
+
+.textHabilidades1::-webkit-scrollbar{
+    width: 5px;
+}
+
+.textHabilidades1::-webkit-scrollbar-track{
+    background-color: #0a0b0c;
+}
+
+.textHabilidades1::-webkit-scrollbar-button{
+    background-color: #0a0b0c;
+}
+
+.textHabilidades1::-webkit-scrollbar-thumb{
+    background-color: rgb(104, 104, 104);
+    border-radius: 70px;
+}
+
+
+.textHabilidades1::-webkit-scrollbar-thumb:hover{
+    background-color: rgb(114, 114, 114);
+}
+
+
+
+
+
+
+
+
+.DIVISÃO{
+    height: 50px;
+}
