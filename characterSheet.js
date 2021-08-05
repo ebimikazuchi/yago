@@ -12,13 +12,13 @@ const data = {
     max: 14,
   },
   sanity: {
-    current: 65,
-    max: 66,
+    current: 71,
+    max: 72,
   },
 
   lifeo: {
-    current: 11,
-    max: 11,
+    current: 18,
+    max: 18,
   },
 
   weapons: [
@@ -68,7 +68,7 @@ const data = {
     },
     {
       type: 'Sorte',
-      amount: 11,
+      amount: 12,
     },
     {
       type: 'Inteligência',
@@ -92,7 +92,7 @@ const data = {
 
     {
     type:'Espingardas',
-    amount:'17',
+    amount:'18',
     },
     
     {
@@ -159,7 +159,7 @@ const data = {
     
     {
     type:'Encontrar',
-    amount:'10',
+    amount:'11',
     },
     
     
