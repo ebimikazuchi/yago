@@ -50,9 +50,11 @@ h2.grid-title {
     display: grid;
     grid-template-areas: 
         'details details details character'
-        'attributes attributes attributes attributes '
-        'pericias pericias pericias pericias'
-        'habilidades habilidades habilidades habilidades';
+        'attributes attributes  attributes attributes '
+        'pericias pericias pericias pericias '
+        'inventarios inventarios inventarios inventarios '
+        'habilidades habilidades habilidades habilidades'
+        'antecedentes antecedentes antecedentes antecedentes';
 
         grid-gap: 30px;
 
@@ -107,7 +109,17 @@ h2.grid-title {
     grid-area: pericias;
 }
 
+.inventarios{
+    grid-area: inventario;
+}
 
+.habilidades{
+    grid-area: habilidades;
+}
+
+.antecedentes{
+    grid-area: antecedentes;
+}
 
 
 
@@ -377,7 +389,7 @@ select:focus {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    height: 400px;
+    height: 250px;
     overflow-y: scroll;
 }
 
@@ -743,6 +755,7 @@ input[type="checkbox"]:checked + label:after {
 
 
 
+
 .antecedentes{
     height: 1100px;
     width: 640px; 
@@ -799,7 +812,42 @@ input[type="checkbox"]:checked + label:after {
 
 
 
+.inventarios{
+    height: 300px;
+    width: 640px; 
+    margin-left: auto;
+    margin-right: auto;
+    overflow-y: scroll;
+}
+
+.inventarios:focus {
+    outline: none;
+}
+
+
+.inventarios::-webkit-scrollbar{
+    width: 5px;
+}
+
+.inventarios::-webkit-scrollbar-track{
+    background-color: #0a0b0c;
+}
+
+.inventarios::-webkit-scrollbar-button{
+    background-color: #0a0b0c;
+}
+
+.inventarios::-webkit-scrollbar-thumb{
+    background-color: rgb(104, 104, 104);
+    border-radius: 70px;
+}
+
+
+.inventarios::-webkit-scrollbar-thumb:hover{
+    background-color: rgb(114, 114, 114);
+}
+
 
 .DIVISÃO{
-    height: 50px;
+    height: 80px;
 }
